@@ -1,0 +1,21 @@
+# Publish only the extension, its documentation, and the current install ZIP.
+# Local tests, scenes, old versions, build tools, and generated files stay local.
+/*
+!/.gitignore
+!/.gitattributes
+!/README.md
+!/LICENSE
+!/CHANGELOG.md
+!/avatar_cloth_fit/
+/avatar_cloth_fit/*
+!/avatar_cloth_fit/*.py
+!/avatar_cloth_fit/blender_manifest.toml
+!/avatar_cloth_fit/README.md
+!/avatar_cloth_fit/USER_GUIDE.md
+!/avatar_cloth_fit/LICENSE
+!/dist/
+/dist/*
+!/dist/avatar_cloth_fit-1.8.4.zip
+
+__pycache__/
+*.py[cod]

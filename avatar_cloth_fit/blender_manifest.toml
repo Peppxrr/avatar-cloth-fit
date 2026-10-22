@@ -1,0 +1,14 @@
+schema_version = "1.0.0"
+id = "avatar_cloth_fit"
+version = "1.8.4"
+name = "Avatar Cloth Fit"
+tagline = "Sculpt clothing onto avatars and fit their weights"
+maintainer = "Pepper (Peppxrr)"
+website = "https://github.com/Peppxrr/avatar-cloth-fit"
+type = "add-on"
+blender_version_min = "5.0.0"
+license = ["SPDX:GPL-3.0-or-later"]
+tags = ["Rigging", "Sculpt"]
+
+[build]
+paths = ["__init__.py", "engine.py", "assisted.py", "brushes.py", "sculpt.py", "clothing_set.py", "geometry.py", "solver.py", "poses.py", "parts.py", "topology.py", "quality.py", "screening.py", "README.md", "USER_GUIDE.md", "LICENSE"]
